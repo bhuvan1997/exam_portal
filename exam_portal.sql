@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 14, 2025 at 01:12 PM
+-- Generation Time: Oct 06, 2025 at 08:25 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -33,126 +33,6 @@ CREATE TABLE `cache` (
   `expiration` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Dumping data for table `cache`
---
-
-INSERT INTO `cache` (`key`, `value`, `expiration`) VALUES
-('laravel-cache-captcha_011c12e1ac17157dfb5a7296b7db32d3', 'a:9:{i:0;s:1:\"j\";i:1;s:1:\"u\";i:2;s:1:\"z\";i:3;s:1:\"p\";i:4;s:1:\"d\";i:5;s:1:\"2\";i:6;s:1:\"z\";i:7;s:1:\"b\";i:8;s:1:\"c\";}', 1754487489),
-('laravel-cache-captcha_01657370b18acde22f16be0367901406', 'a:9:{i:0;s:1:\"j\";i:1;s:1:\"f\";i:2;s:1:\"z\";i:3;s:1:\"h\";i:4;s:1:\"4\";i:5;s:1:\"6\";i:6;s:1:\"y\";i:7;s:1:\"a\";i:8;s:1:\"d\";}', 1753632166),
-('laravel-cache-captcha_08513690523dae1598eb267f84a2eccc', 'a:9:{i:0;s:1:\"3\";i:1;s:1:\"c\";i:2;s:1:\"q\";i:3;s:1:\"u\";i:4;s:1:\"c\";i:5;s:1:\"m\";i:6;s:1:\"y\";i:7;s:1:\"b\";i:8;s:1:\"n\";}', 1753431417),
-('laravel-cache-captcha_0a1647c070802304ecf7026a1c3f4f30', 'a:9:{i:0;s:1:\"c\";i:1;s:1:\"3\";i:2;s:1:\"p\";i:3;s:1:\"2\";i:4;s:1:\"n\";i:5;s:1:\"h\";i:6;s:1:\"9\";i:7;s:1:\"r\";i:8;s:1:\"d\";}', 1753439137),
-('laravel-cache-captcha_0c2f302c422f328dd56db4bb6b2bf255', 'a:9:{i:0;s:1:\"y\";i:1;s:1:\"n\";i:2;s:1:\"d\";i:3;s:1:\"y\";i:4;s:1:\"e\";i:5;s:1:\"y\";i:6;s:1:\"t\";i:7;s:1:\"e\";i:8;s:1:\"8\";}', 1753430852),
-('laravel-cache-captcha_0fd54d04789099e6e3351cbe3eab70e3', 'a:9:{i:0;s:1:\"q\";i:1;s:1:\"b\";i:2;s:1:\"b\";i:3;s:1:\"f\";i:4;s:1:\"g\";i:5;s:1:\"8\";i:6;s:1:\"z\";i:7;s:1:\"7\";i:8;s:1:\"c\";}', 1753435466),
-('laravel-cache-captcha_10af2eac1b6bf3fac855da870be14ccd', 'a:9:{i:0;s:1:\"e\";i:1;s:1:\"t\";i:2;s:1:\"q\";i:3;s:1:\"x\";i:4;s:1:\"r\";i:5;s:1:\"h\";i:6;s:1:\"8\";i:7;s:1:\"g\";i:8;s:1:\"f\";}', 1753439855),
-('laravel-cache-captcha_112877457fc312697ae9e77f66e9d54c', 'a:9:{i:0;s:1:\"z\";i:1;s:1:\"z\";i:2;s:1:\"t\";i:3;s:1:\"x\";i:4;s:1:\"b\";i:5;s:1:\"d\";i:6;s:1:\"c\";i:7;s:1:\"b\";i:8;s:1:\"g\";}', 1753439156),
-('laravel-cache-captcha_1596d49e09fcec391fdb2172cba6f013', 'a:9:{i:0;s:1:\"j\";i:1;s:1:\"x\";i:2;s:1:\"g\";i:3;s:1:\"u\";i:4;s:1:\"n\";i:5;s:1:\"d\";i:6;s:1:\"8\";i:7;s:1:\"9\";i:8;s:1:\"d\";}', 1753439815),
-('laravel-cache-captcha_1742421b6063908abaa5f2812dd20799', 'a:9:{i:0;s:1:\"a\";i:1;s:1:\"c\";i:2;s:1:\"r\";i:3;s:1:\"c\";i:4;s:1:\"e\";i:5;s:1:\"2\";i:6;s:1:\"x\";i:7;s:1:\"p\";i:8;s:1:\"e\";}', 1753448157),
-('laravel-cache-captcha_18516bf3f57eab24eee0961bd796eb66', 'a:9:{i:0;s:1:\"a\";i:1;s:1:\"u\";i:2;s:1:\"b\";i:3;s:1:\"8\";i:4;s:1:\"r\";i:5;s:1:\"g\";i:6;s:1:\"c\";i:7;s:1:\"e\";i:8;s:1:\"d\";}', 1753632056),
-('laravel-cache-captcha_18fde93e82e39e686bb5cde833c179a9', 'a:9:{i:0;s:1:\"t\";i:1;s:1:\"h\";i:2;s:1:\"7\";i:3;s:1:\"n\";i:4;s:1:\"c\";i:5;s:1:\"a\";i:6;s:1:\"q\";i:7;s:1:\"c\";i:8;s:1:\"z\";}', 1753439835),
-('laravel-cache-captcha_1b9eea2f01d20fcfb9cfd767a8543239', 'a:9:{i:0;s:1:\"y\";i:1;s:1:\"8\";i:2;s:1:\"f\";i:3;s:1:\"2\";i:4;s:1:\"x\";i:5;s:1:\"d\";i:6;s:1:\"c\";i:7;s:1:\"c\";i:8;s:1:\"j\";}', 1753432420),
-('laravel-cache-captcha_1d25ef489755e0ded4c8f50a17ed0747', 'a:9:{i:0;s:1:\"8\";i:1;s:1:\"h\";i:2;s:1:\"r\";i:3;s:1:\"c\";i:4;s:1:\"b\";i:5;s:1:\"t\";i:6;s:1:\"d\";i:7;s:1:\"x\";i:8;s:1:\"a\";}', 1753431125),
-('laravel-cache-captcha_1d7c72ac863eea12cfca688ab8749fbd', 'a:9:{i:0;s:1:\"n\";i:1;s:1:\"z\";i:2;s:1:\"g\";i:3;s:1:\"m\";i:4;s:1:\"8\";i:5;s:1:\"e\";i:6;s:1:\"q\";i:7;s:1:\"6\";i:8;s:1:\"g\";}', 1753430867),
-('laravel-cache-captcha_1ec95dd53465bc78330acc3b0df2225c', 'a:9:{i:0;s:1:\"a\";i:1;s:1:\"c\";i:2;s:1:\"4\";i:3;s:1:\"u\";i:4;s:1:\"9\";i:5;s:1:\"n\";i:6;s:1:\"x\";i:7;s:1:\"n\";i:8;s:1:\"h\";}', 1753432077),
-('laravel-cache-captcha_21762876173801adffe1583e15276539', 'a:9:{i:0;s:1:\"y\";i:1;s:1:\"m\";i:2;s:1:\"b\";i:3;s:1:\"u\";i:4;s:1:\"x\";i:5;s:1:\"7\";i:6;s:1:\"p\";i:7;s:1:\"9\";i:8;s:1:\"p\";}', 1754461993),
-('laravel-cache-captcha_2552955dc9f9ecf2981873db42fcb9b7', 'a:9:{i:0;s:1:\"h\";i:1;s:1:\"p\";i:2;s:1:\"q\";i:3;s:1:\"u\";i:4;s:1:\"j\";i:5;s:1:\"e\";i:6;s:1:\"4\";i:7;s:1:\"a\";i:8;s:1:\"e\";}', 1753435122),
-('laravel-cache-captcha_257f839fb6234179cc1dc185d87a90a9', 'a:9:{i:0;s:1:\"x\";i:1;s:1:\"9\";i:2;s:1:\"p\";i:3;s:1:\"p\";i:4;s:1:\"p\";i:5;s:1:\"p\";i:6;s:1:\"b\";i:7;s:1:\"r\";i:8;s:1:\"b\";}', 1753439139),
-('laravel-cache-captcha_2dff361ebb017f20439a71146fa0a9cf', 'a:9:{i:0;s:1:\"f\";i:1;s:1:\"4\";i:2;s:1:\"e\";i:3;s:1:\"j\";i:4;s:1:\"f\";i:5;s:1:\"r\";i:6;s:1:\"c\";i:7;s:1:\"z\";i:8;s:1:\"q\";}', 1753439140),
-('laravel-cache-captcha_33e6d851a4adb08006f4889c01f4ad1a', 'a:9:{i:0;s:1:\"a\";i:1;s:1:\"3\";i:2;s:1:\"t\";i:3;s:1:\"b\";i:4;s:1:\"d\";i:5;s:1:\"f\";i:6;s:1:\"7\";i:7;s:1:\"y\";i:8;s:1:\"e\";}', 1753432083),
-('laravel-cache-captcha_3503f2a0a6b69f24d33e032828fa7c12', 'a:9:{i:0;s:1:\"t\";i:1;s:1:\"x\";i:2;s:1:\"q\";i:3;s:1:\"d\";i:4;s:1:\"8\";i:5;s:1:\"c\";i:6;s:1:\"r\";i:7;s:1:\"a\";i:8;s:1:\"p\";}', 1753431452),
-('laravel-cache-captcha_3622b363e8d928efdaa492482eb6f245', 'a:9:{i:0;s:1:\"e\";i:1;s:1:\"p\";i:2;s:1:\"4\";i:3;s:1:\"z\";i:4;s:1:\"g\";i:5;s:1:\"z\";i:6;s:1:\"9\";i:7;s:1:\"b\";i:8;s:1:\"g\";}', 1753438484),
-('laravel-cache-captcha_3e5601551d9d38b46036242d498838b8', 'a:9:{i:0;s:1:\"6\";i:1;s:1:\"c\";i:2;s:1:\"q\";i:3;s:1:\"3\";i:4;s:1:\"2\";i:5;s:1:\"g\";i:6;s:1:\"m\";i:7;s:1:\"4\";i:8;s:1:\"f\";}', 1753431208),
-('laravel-cache-captcha_40861a7856c5fc1df366748f8ca64c70', 'a:9:{i:0;s:1:\"d\";i:1;s:1:\"z\";i:2;s:1:\"r\";i:3;s:1:\"u\";i:4;s:1:\"t\";i:5;s:1:\"a\";i:6;s:1:\"a\";i:7;s:1:\"e\";i:8;s:1:\"r\";}', 1753430862),
-('laravel-cache-captcha_4371a69068e22f0ab73c35a2c7a7544b', 'a:9:{i:0;s:1:\"x\";i:1;s:1:\"t\";i:2;s:1:\"r\";i:3;s:1:\"c\";i:4;s:1:\"a\";i:5;s:1:\"b\";i:6;s:1:\"f\";i:7;s:1:\"q\";i:8;s:1:\"q\";}', 1753431449),
-('laravel-cache-captcha_45ded0e7f558cd81e6b19aed8c470863', 'a:9:{i:0;s:1:\"7\";i:1;s:1:\"x\";i:2;s:1:\"y\";i:3;s:1:\"d\";i:4;s:1:\"j\";i:5;s:1:\"h\";i:6;s:1:\"g\";i:7;s:1:\"z\";i:8;s:1:\"n\";}', 1753431234),
-('laravel-cache-captcha_473cb030d28663c572ad67e6e6894d80', 'a:9:{i:0;s:1:\"j\";i:1;s:1:\"z\";i:2;s:1:\"t\";i:3;s:1:\"e\";i:4;s:1:\"9\";i:5;s:1:\"e\";i:6;s:1:\"y\";i:7;s:1:\"2\";i:8;s:1:\"y\";}', 1753438771),
-('laravel-cache-captcha_48e7c94a7f6fb1d968c124b92bd05b77', 'a:9:{i:0;s:1:\"x\";i:1;s:1:\"j\";i:2;s:1:\"b\";i:3;s:1:\"r\";i:4;s:1:\"h\";i:5;s:1:\"t\";i:6;s:1:\"f\";i:7;s:1:\"8\";i:8;s:1:\"n\";}', 1753438569),
-('laravel-cache-captcha_4a00a9e8bdf851f0d167c7f9872b4867', 'a:9:{i:0;s:1:\"u\";i:1;s:1:\"x\";i:2;s:1:\"7\";i:3;s:1:\"j\";i:4;s:1:\"e\";i:5;s:1:\"g\";i:6;s:1:\"z\";i:7;s:1:\"e\";i:8;s:1:\"d\";}', 1753432418),
-('laravel-cache-captcha_4d589e12283ed9386665156686506f92', 'a:9:{i:0;s:1:\"9\";i:1;s:1:\"m\";i:2;s:1:\"y\";i:3;s:1:\"u\";i:4;s:1:\"g\";i:5;s:1:\"q\";i:6;s:1:\"z\";i:7;s:1:\"d\";i:8;s:1:\"c\";}', 1753627677),
-('laravel-cache-captcha_4f8e1606e0bc29732d30633c6dddb23b', 'a:9:{i:0;s:1:\"c\";i:1;s:1:\"n\";i:2;s:1:\"r\";i:3;s:1:\"a\";i:4;s:1:\"g\";i:5;s:1:\"r\";i:6;s:1:\"8\";i:7;s:1:\"g\";i:8;s:1:\"h\";}', 1753435611),
-('laravel-cache-captcha_52a333dc2098b02b87b6c9fdb103a523', 'a:9:{i:0;s:1:\"a\";i:1;s:1:\"j\";i:2;s:1:\"z\";i:3;s:1:\"z\";i:4;s:1:\"h\";i:5;s:1:\"t\";i:6;s:1:\"q\";i:7;s:1:\"4\";i:8;s:1:\"d\";}', 1753438482),
-('laravel-cache-captcha_5a7cd61ab790c1ca2f708c13e378bf45', 'a:9:{i:0;s:1:\"e\";i:1;s:1:\"m\";i:2;s:1:\"f\";i:3;s:1:\"r\";i:4;s:1:\"m\";i:5;s:1:\"f\";i:6;s:1:\"d\";i:7;s:1:\"d\";i:8;s:1:\"9\";}', 1753438477),
-('laravel-cache-captcha_5ca3ad33332d2a636da72ac3ef771e73', 'a:9:{i:0;s:1:\"h\";i:1;s:1:\"t\";i:2;s:1:\"b\";i:3;s:1:\"z\";i:4;s:1:\"z\";i:5;s:1:\"b\";i:6;s:1:\"q\";i:7;s:1:\"j\";i:8;s:1:\"2\";}', 1753439150),
-('laravel-cache-captcha_5cdf6174bb709b4fb94da7ae38ccb3cd', 'a:9:{i:0;s:1:\"g\";i:1;s:1:\"q\";i:2;s:1:\"b\";i:3;s:1:\"n\";i:4;s:1:\"c\";i:5;s:1:\"f\";i:6;s:1:\"u\";i:7;s:1:\"b\";i:8;s:1:\"b\";}', 1753435463),
-('laravel-cache-captcha_5ceed5ad34f097f95d901214568f5a0e', 'a:9:{i:0;s:1:\"m\";i:1;s:1:\"t\";i:2;s:1:\"f\";i:3;s:1:\"b\";i:4;s:1:\"d\";i:5;s:1:\"3\";i:6;s:1:\"u\";i:7;s:1:\"x\";i:8;s:1:\"y\";}', 1753430374),
-('laravel-cache-captcha_5d96fc2f77c482cf3d86cebfeb62f7be', 'a:9:{i:0;s:1:\"8\";i:1;s:1:\"t\";i:2;s:1:\"h\";i:3;s:1:\"z\";i:4;s:1:\"r\";i:5;s:1:\"a\";i:6;s:1:\"2\";i:7;s:1:\"y\";i:8;s:1:\"7\";}', 1753439510),
-('laravel-cache-captcha_5f9935e3bc3fcb909d0e880d821502f3', 'a:9:{i:0;s:1:\"m\";i:1;s:1:\"f\";i:2;s:1:\"f\";i:3;s:1:\"y\";i:4;s:1:\"z\";i:5;s:1:\"p\";i:6;s:1:\"p\";i:7;s:1:\"n\";i:8;s:1:\"a\";}', 1753439860),
-('laravel-cache-captcha_6751bdfd4ca11f9ebe1e191edea60e91', 'a:9:{i:0;s:1:\"2\";i:1;s:1:\"c\";i:2;s:1:\"y\";i:3;s:1:\"e\";i:4;s:1:\"a\";i:5;s:1:\"m\";i:6;s:1:\"2\";i:7;s:1:\"u\";i:8;s:1:\"h\";}', 1753431923),
-('laravel-cache-captcha_6787143d2f4d993f2d15403558a61645', 'a:9:{i:0;s:1:\"p\";i:1;s:1:\"h\";i:2;s:1:\"t\";i:3;s:1:\"f\";i:4;s:1:\"p\";i:5;s:1:\"h\";i:6;s:1:\"f\";i:7;s:1:\"b\";i:8;s:1:\"n\";}', 1753438575),
-('laravel-cache-captcha_67c4412a25340f345a18fe6a4e901005', 'a:9:{i:0;s:1:\"j\";i:1;s:1:\"x\";i:2;s:1:\"q\";i:3;s:1:\"d\";i:4;s:1:\"n\";i:5;s:1:\"z\";i:6;s:1:\"z\";i:7;s:1:\"x\";i:8;s:1:\"t\";}', 1753432059),
-('laravel-cache-captcha_689b37cd34556334cb093f737813745e', 'a:9:{i:0;s:1:\"m\";i:1;s:1:\"2\";i:2;s:1:\"c\";i:3;s:1:\"z\";i:4;s:1:\"m\";i:5;s:1:\"p\";i:6;s:1:\"b\";i:7;s:1:\"h\";i:8;s:1:\"c\";}', 1753431115),
-('laravel-cache-captcha_6b6a72da1e53e59708cd8b8b4f04e3a0', 'a:9:{i:0;s:1:\"6\";i:1;s:1:\"d\";i:2;s:1:\"g\";i:3;s:1:\"d\";i:4;s:1:\"m\";i:5;s:1:\"3\";i:6;s:1:\"p\";i:7;s:1:\"c\";i:8;s:1:\"y\";}', 1753431486),
-('laravel-cache-captcha_6f5d803ebb36907a108fdeed5c5eb152', 'a:9:{i:0;s:1:\"f\";i:1;s:1:\"m\";i:2;s:1:\"u\";i:3;s:1:\"a\";i:4;s:1:\"q\";i:5;s:1:\"r\";i:6;s:1:\"q\";i:7;s:1:\"z\";i:8;s:1:\"n\";}', 1753431261),
-('laravel-cache-captcha_6f5dbe324488dd22ad1e852fcfcff80c', 'a:9:{i:0;s:1:\"8\";i:1;s:1:\"n\";i:2;s:1:\"a\";i:3;s:1:\"8\";i:4;s:1:\"f\";i:5;s:1:\"m\";i:6;s:1:\"6\";i:7;s:1:\"4\";i:8;s:1:\"y\";}', 1753438480),
-('laravel-cache-captcha_74a259132036f0c2c6f86894aea561a7', 'a:9:{i:0;s:1:\"f\";i:1;s:1:\"d\";i:2;s:1:\"h\";i:3;s:1:\"y\";i:4;s:1:\"8\";i:5;s:1:\"f\";i:6;s:1:\"n\";i:7;s:1:\"c\";i:8;s:1:\"d\";}', 1754512092),
-('laravel-cache-captcha_756622659b9d062b4f639085ed29cb9a', 'a:9:{i:0;s:1:\"m\";i:1;s:1:\"t\";i:2;s:1:\"g\";i:3;s:1:\"x\";i:4;s:1:\"2\";i:5;s:1:\"u\";i:6;s:1:\"n\";i:7;s:1:\"n\";i:8;s:1:\"g\";}', 1753431121),
-('laravel-cache-captcha_7849188bb4b6901de5c82b98e2c7bfff', 'a:9:{i:0;s:1:\"n\";i:1;s:1:\"g\";i:2;s:1:\"f\";i:3;s:1:\"y\";i:4;s:1:\"8\";i:5;s:1:\"u\";i:6;s:1:\"m\";i:7;s:1:\"t\";i:8;s:1:\"x\";}', 1753430451),
-('laravel-cache-captcha_7a7783313c5593aa458b670b12e29d1b', 'a:9:{i:0;s:1:\"3\";i:1;s:1:\"n\";i:2;s:1:\"h\";i:3;s:1:\"n\";i:4;s:1:\"n\";i:5;s:1:\"z\";i:6;s:1:\"e\";i:7;s:1:\"g\";i:8;s:1:\"c\";}', 1753431165),
-('laravel-cache-captcha_7c6955b458ec9aa9c5b4883756cd4b5c', 'a:9:{i:0;s:1:\"z\";i:1;s:1:\"e\";i:2;s:1:\"c\";i:3;s:1:\"m\";i:4;s:1:\"4\";i:5;s:1:\"g\";i:6;s:1:\"u\";i:7;s:1:\"z\";i:8;s:1:\"f\";}', 1753431102),
-('laravel-cache-captcha_7efdd5d5bc12ab488fbae6f2e6f5b64f', 'a:9:{i:0;s:1:\"n\";i:1;s:1:\"9\";i:2;s:1:\"x\";i:3;s:1:\"x\";i:4;s:1:\"d\";i:5;s:1:\"z\";i:6;s:1:\"t\";i:7;s:1:\"m\";i:8;s:1:\"j\";}', 1754487394),
-('laravel-cache-captcha_7fc1813dd26d5e9b4be94e8fc355f206', 'a:9:{i:0;s:1:\"z\";i:1;s:1:\"r\";i:2;s:1:\"7\";i:3;s:1:\"g\";i:4;s:1:\"e\";i:5;s:1:\"x\";i:6;s:1:\"a\";i:7;s:1:\"t\";i:8;s:1:\"r\";}', 1753438630),
-('laravel-cache-captcha_80c27b8a0685ba156585dfacbbbf66d6', 'a:9:{i:0;s:1:\"3\";i:1;s:1:\"j\";i:2;s:1:\"8\";i:3;s:1:\"f\";i:4;s:1:\"b\";i:5;s:1:\"t\";i:6;s:1:\"q\";i:7;s:1:\"n\";i:8;s:1:\"g\";}', 1753430362),
-('laravel-cache-captcha_814d051b947a3a24193068af2736e28a', 'a:9:{i:0;s:1:\"7\";i:1;s:1:\"6\";i:2;s:1:\"c\";i:3;s:1:\"c\";i:4;s:1:\"j\";i:5;s:1:\"7\";i:6;s:1:\"j\";i:7;s:1:\"u\";i:8;s:1:\"u\";}', 1753439109),
-('laravel-cache-captcha_83084996330331c5dfbbed48977edea7', 'a:9:{i:0;s:1:\"6\";i:1;s:1:\"z\";i:2;s:1:\"z\";i:3;s:1:\"g\";i:4;s:1:\"9\";i:5;s:1:\"h\";i:6;s:1:\"j\";i:7;s:1:\"x\";i:8;s:1:\"h\";}', 1753431114),
-('laravel-cache-captcha_8913b349ffe55742d226f46eb6632b53', 'a:9:{i:0;s:1:\"t\";i:1;s:1:\"g\";i:2;s:1:\"t\";i:3;s:1:\"3\";i:4;s:1:\"t\";i:5;s:1:\"t\";i:6;s:1:\"4\";i:7;s:1:\"q\";i:8;s:1:\"h\";}', 1753627588),
-('laravel-cache-captcha_8d5696dbf4ee708c696a4480f50467df', 'a:9:{i:0;s:1:\"c\";i:1;s:1:\"z\";i:2;s:1:\"u\";i:3;s:1:\"a\";i:4;s:1:\"b\";i:5;s:1:\"m\";i:6;s:1:\"c\";i:7;s:1:\"n\";i:8;s:1:\"h\";}', 1753438506),
-('laravel-cache-captcha_8e7cc20101adc5340019a5163a9f004b', 'a:9:{i:0;s:1:\"t\";i:1;s:1:\"h\";i:2;s:1:\"a\";i:3;s:1:\"7\";i:4;s:1:\"j\";i:5;s:1:\"x\";i:6;s:1:\"a\";i:7;s:1:\"x\";i:8;s:1:\"m\";}', 1753432044),
-('laravel-cache-captcha_90cfffeef7f42e2f6cbde6fa367518c4', 'a:9:{i:0;s:1:\"z\";i:1;s:1:\"h\";i:2;s:1:\"h\";i:3;s:1:\"6\";i:4;s:1:\"d\";i:5;s:1:\"j\";i:6;s:1:\"2\";i:7;s:1:\"z\";i:8;s:1:\"e\";}', 1753439103),
-('laravel-cache-captcha_91ade02d13238565400c1e36ed7f2404', 'a:9:{i:0;s:1:\"c\";i:1;s:1:\"y\";i:2;s:1:\"j\";i:3;s:1:\"f\";i:4;s:1:\"y\";i:5;s:1:\"y\";i:6;s:1:\"m\";i:7;s:1:\"e\";i:8;s:1:\"c\";}', 1753432417),
-('laravel-cache-captcha_92847900ac1f4c9d6b5de5205776c12e', 'a:9:{i:0;s:1:\"y\";i:1;s:1:\"r\";i:2;s:1:\"a\";i:3;s:1:\"n\";i:4;s:1:\"f\";i:5;s:1:\"p\";i:6;s:1:\"9\";i:7;s:1:\"t\";i:8;s:1:\"q\";}', 1753439157),
-('laravel-cache-captcha_92899aeca3fc21a75c51a78e4a27b8dc', 'a:9:{i:0;s:1:\"z\";i:1;s:1:\"x\";i:2;s:1:\"8\";i:3;s:1:\"e\";i:4;s:1:\"x\";i:5;s:1:\"b\";i:6;s:1:\"u\";i:7;s:1:\"b\";i:8;s:1:\"x\";}', 1753431269),
-('laravel-cache-captcha_92979c4072f18506510dd0e3d05b0039', 'a:9:{i:0;s:1:\"h\";i:1;s:1:\"z\";i:2;s:1:\"4\";i:3;s:1:\"x\";i:4;s:1:\"q\";i:5;s:1:\"b\";i:6;s:1:\"m\";i:7;s:1:\"j\";i:8;s:1:\"e\";}', 1753435461),
-('laravel-cache-captcha_93874f70c1e0335b9b19f4c7e8f187d4', 'a:9:{i:0;s:1:\"6\";i:1;s:1:\"t\";i:2;s:1:\"h\";i:3;s:1:\"a\";i:4;s:1:\"9\";i:5;s:1:\"q\";i:6;s:1:\"e\";i:7;s:1:\"7\";i:8;s:1:\"y\";}', 1753439858),
-('laravel-cache-captcha_9af882ac8253721dbbb2df81f851456e', 'a:9:{i:0;s:1:\"r\";i:1;s:1:\"8\";i:2;s:1:\"a\";i:3;s:1:\"p\";i:4;s:1:\"e\";i:5;s:1:\"f\";i:6;s:1:\"p\";i:7;s:1:\"2\";i:8;s:1:\"d\";}', 1753439132),
-('laravel-cache-captcha_9c330dbaa934ed73f13845122c36c5a6', 'a:9:{i:0;s:1:\"z\";i:1;s:1:\"y\";i:2;s:1:\"t\";i:3;s:1:\"h\";i:4;s:1:\"u\";i:5;s:1:\"h\";i:6;s:1:\"g\";i:7;s:1:\"8\";i:8;s:1:\"h\";}', 1753431410),
-('laravel-cache-captcha_9c762128d13c4d03d1ef3f3dc38a4416', 'a:9:{i:0;s:1:\"x\";i:1;s:1:\"y\";i:2;s:1:\"g\";i:3;s:1:\"y\";i:4;s:1:\"h\";i:5;s:1:\"9\";i:6;s:1:\"x\";i:7;s:1:\"4\";i:8;s:1:\"7\";}', 1753438660),
-('laravel-cache-captcha_9d46184dd79af7d99631731a1c55ee24', 'a:9:{i:0;s:1:\"f\";i:1;s:1:\"q\";i:2;s:1:\"q\";i:3;s:1:\"x\";i:4;s:1:\"3\";i:5;s:1:\"t\";i:6;s:1:\"d\";i:7;s:1:\"q\";i:8;s:1:\"m\";}', 1753632111),
-('laravel-cache-captcha_9d9c12f6283b61634212244c74856cd1', 'a:9:{i:0;s:1:\"q\";i:1;s:1:\"t\";i:2;s:1:\"e\";i:3;s:1:\"u\";i:4;s:1:\"j\";i:5;s:1:\"7\";i:6;s:1:\"x\";i:7;s:1:\"z\";i:8;s:1:\"z\";}', 1753439144),
-('laravel-cache-captcha_a2da6ed75bbd51819c8506959b71ddb8', 'a:9:{i:0;s:1:\"p\";i:1;s:1:\"n\";i:2;s:1:\"3\";i:3;s:1:\"h\";i:4;s:1:\"n\";i:5;s:1:\"m\";i:6;s:1:\"x\";i:7;s:1:\"m\";i:8;s:1:\"t\";}', 1753431282),
-('laravel-cache-captcha_a3f07c3229bcba8500ed40b49fc186c4', 'a:9:{i:0;s:1:\"g\";i:1;s:1:\"a\";i:2;s:1:\"z\";i:3;s:1:\"z\";i:4;s:1:\"x\";i:5;s:1:\"m\";i:6;s:1:\"g\";i:7;s:1:\"h\";i:8;s:1:\"e\";}', 1753431123),
-('laravel-cache-captcha_a5cfe9466597de6fd61420da0f82bd95', 'a:9:{i:0;s:1:\"r\";i:1;s:1:\"7\";i:2;s:1:\"a\";i:3;s:1:\"g\";i:4;s:1:\"j\";i:5;s:1:\"8\";i:6;s:1:\"d\";i:7;s:1:\"r\";i:8;s:1:\"g\";}', 1753431373),
-('laravel-cache-captcha_a83eb962b82ccc4e422b22475a3fd174', 'a:9:{i:0;s:1:\"e\";i:1;s:1:\"x\";i:2;s:1:\"y\";i:3;s:1:\"c\";i:4;s:1:\"p\";i:5;s:1:\"c\";i:6;s:1:\"q\";i:7;s:1:\"3\";i:8;s:1:\"q\";}', 1754511743),
-('laravel-cache-captcha_a8cc394eb0166bc437a7a1a67b343270', 'a:9:{i:0;s:1:\"b\";i:1;s:1:\"x\";i:2;s:1:\"4\";i:3;s:1:\"9\";i:4;s:1:\"y\";i:5;s:1:\"x\";i:6;s:1:\"z\";i:7;s:1:\"d\";i:8;s:1:\"c\";}', 1753431414),
-('laravel-cache-captcha_a912c4ab3eb1a99e013d48f479fceb54', 'a:9:{i:0;s:1:\"c\";i:1;s:1:\"d\";i:2;s:1:\"y\";i:3;s:1:\"d\";i:4;s:1:\"t\";i:5;s:1:\"6\";i:6;s:1:\"n\";i:7;s:1:\"8\";i:8;s:1:\"2\";}', 1753438656),
-('laravel-cache-captcha_a99bb0d98625f53d9f120a8cf1bd5bd2', 'a:9:{i:0;s:1:\"d\";i:1;s:1:\"d\";i:2;s:1:\"b\";i:3;s:1:\"a\";i:4;s:1:\"p\";i:5;s:1:\"y\";i:6;s:1:\"b\";i:7;s:1:\"j\";i:8;s:1:\"3\";}', 1753438626),
-('laravel-cache-captcha_aaeb64eda8f756e7451d12410528a338', 'a:9:{i:0;s:1:\"h\";i:1;s:1:\"e\";i:2;s:1:\"d\";i:3;s:1:\"u\";i:4;s:1:\"4\";i:5;s:1:\"2\";i:6;s:1:\"7\";i:7;s:1:\"e\";i:8;s:1:\"x\";}', 1753534505),
-('laravel-cache-captcha_ac7aabe0d721f9356ea2f86c9a370817', 'a:9:{i:0;s:1:\"u\";i:1;s:1:\"4\";i:2;s:1:\"c\";i:3;s:1:\"p\";i:4;s:1:\"b\";i:5;s:1:\"n\";i:6;s:1:\"m\";i:7;s:1:\"b\";i:8;s:1:\"g\";}', 1753438603),
-('laravel-cache-captcha_ae0d1d699e34c5a4e2c9638684d01f1a', 'a:9:{i:0;s:1:\"t\";i:1;s:1:\"h\";i:2;s:1:\"8\";i:3;s:1:\"p\";i:4;s:1:\"d\";i:5;s:1:\"p\";i:6;s:1:\"e\";i:7;s:1:\"u\";i:8;s:1:\"t\";}', 1753435151),
-('laravel-cache-captcha_ae1cf5b8cf93272856cd404bdd869c94', 'a:9:{i:0;s:1:\"f\";i:1;s:1:\"q\";i:2;s:1:\"g\";i:3;s:1:\"b\";i:4;s:1:\"h\";i:5;s:1:\"x\";i:6;s:1:\"d\";i:7;s:1:\"u\";i:8;s:1:\"f\";}', 1753439155),
-('laravel-cache-captcha_ae6fadcf4310b756d2de175d0633bb0f', 'a:9:{i:0;s:1:\"m\";i:1;s:1:\"4\";i:2;s:1:\"y\";i:3;s:1:\"x\";i:4;s:1:\"u\";i:5;s:1:\"n\";i:6;s:1:\"6\";i:7;s:1:\"f\";i:8;s:1:\"x\";}', 1753432414),
-('laravel-cache-captcha_afe750e03c93c3d11f2006f20dd18119', 'a:9:{i:0;s:1:\"2\";i:1;s:1:\"2\";i:2;s:1:\"r\";i:3;s:1:\"y\";i:4;s:1:\"t\";i:5;s:1:\"f\";i:6;s:1:\"e\";i:7;s:1:\"b\";i:8;s:1:\"g\";}', 1753431412),
-('laravel-cache-captcha_b29afcf6f0cabc3fa63d08d773b1a3ca', 'a:9:{i:0;s:1:\"8\";i:1;s:1:\"3\";i:2;s:1:\"m\";i:3;s:1:\"d\";i:4;s:1:\"u\";i:5;s:1:\"q\";i:6;s:1:\"n\";i:7;s:1:\"z\";i:8;s:1:\"n\";}', 1753534500),
-('laravel-cache-captcha_b5156029b0f3732427f39c36a9933461', 'a:9:{i:0;s:1:\"b\";i:1;s:1:\"4\";i:2;s:1:\"b\";i:3;s:1:\"9\";i:4;s:1:\"x\";i:5;s:1:\"u\";i:6;s:1:\"p\";i:7;s:1:\"n\";i:8;s:1:\"m\";}', 1753430890),
-('laravel-cache-captcha_b55b453941f791c8555419fcb5173da5', 'a:9:{i:0;s:1:\"z\";i:1;s:1:\"z\";i:2;s:1:\"u\";i:3;s:1:\"r\";i:4;s:1:\"d\";i:5;s:1:\"t\";i:6;s:1:\"y\";i:7;s:1:\"r\";i:8;s:1:\"n\";}', 1753439593),
-('laravel-cache-captcha_b72650bb3805be125a50ee6aa2386304', 'a:9:{i:0;s:1:\"f\";i:1;s:1:\"j\";i:2;s:1:\"h\";i:3;s:1:\"n\";i:4;s:1:\"u\";i:5;s:1:\"r\";i:6;s:1:\"u\";i:7;s:1:\"f\";i:8;s:1:\"d\";}', 1753438557),
-('laravel-cache-captcha_b7993106a91ae95d62f7dcab4bb3feaa', 'a:9:{i:0;s:1:\"j\";i:1;s:1:\"n\";i:2;s:1:\"y\";i:3;s:1:\"h\";i:4;s:1:\"q\";i:5;s:1:\"m\";i:6;s:1:\"7\";i:7;s:1:\"6\";i:8;s:1:\"t\";}', 1753430955),
-('laravel-cache-captcha_b94ae2435bcaad153516e1ea63b4c859', 'a:9:{i:0;s:1:\"e\";i:1;s:1:\"e\";i:2;s:1:\"7\";i:3;s:1:\"7\";i:4;s:1:\"d\";i:5;s:1:\"m\";i:6;s:1:\"q\";i:7;s:1:\"b\";i:8;s:1:\"y\";}', 1753448176),
-('laravel-cache-captcha_c2096b79078a1c75cffa252d3b6128d6', 'a:9:{i:0;s:1:\"t\";i:1;s:1:\"t\";i:2;s:1:\"x\";i:3;s:1:\"g\";i:4;s:1:\"t\";i:5;s:1:\"r\";i:6;s:1:\"q\";i:7;s:1:\"x\";i:8;s:1:\"u\";}', 1753438963),
-('laravel-cache-captcha_c278341f22407eed92c8fd66fee413ae', 'a:9:{i:0;s:1:\"x\";i:1;s:1:\"a\";i:2;s:1:\"q\";i:3;s:1:\"g\";i:4;s:1:\"j\";i:5;s:1:\"9\";i:6;s:1:\"p\";i:7;s:1:\"2\";i:8;s:1:\"z\";}', 1753629817),
-('laravel-cache-captcha_c3154a758a36a17b2cb2f3335e898d57', 'a:9:{i:0;s:1:\"q\";i:1;s:1:\"a\";i:2;s:1:\"z\";i:3;s:1:\"8\";i:4;s:1:\"7\";i:5;s:1:\"d\";i:6;s:1:\"p\";i:7;s:1:\"a\";i:8;s:1:\"e\";}', 1753632059),
-('laravel-cache-captcha_c6f0fe3ebe6a28dbcea8a71da46dd472', 'a:9:{i:0;s:1:\"t\";i:1;s:1:\"2\";i:2;s:1:\"8\";i:3;s:1:\"d\";i:4;s:1:\"g\";i:5;s:1:\"r\";i:6;s:1:\"t\";i:7;s:1:\"x\";i:8;s:1:\"t\";}', 1753435121),
-('laravel-cache-captcha_c8ae7156ad3663836570d3960b18e0e0', 'a:9:{i:0;s:1:\"j\";i:1;s:1:\"6\";i:2;s:1:\"q\";i:3;s:1:\"f\";i:4;s:1:\"f\";i:5;s:1:\"e\";i:6;s:1:\"q\";i:7;s:1:\"b\";i:8;s:1:\"2\";}', 1753432074),
-('laravel-cache-captcha_c8f9215f7f48a22932109557eb589630', 'a:9:{i:0;s:1:\"4\";i:1;s:1:\"p\";i:2;s:1:\"j\";i:3;s:1:\"g\";i:4;s:1:\"z\";i:5;s:1:\"4\";i:6;s:1:\"f\";i:7;s:1:\"p\";i:8;s:1:\"b\";}', 1753432422),
-('laravel-cache-captcha_c95864cd013c6eec53eac8722fcf483b', 'a:9:{i:0;s:1:\"r\";i:1;s:1:\"p\";i:2;s:1:\"a\";i:3;s:1:\"t\";i:4;s:1:\"t\";i:5;s:1:\"d\";i:6;s:1:\"9\";i:7;s:1:\"d\";i:8;s:1:\"c\";}', 1753430855),
-('laravel-cache-captcha_ccdc1548f976969a52c3837f63cfe1a4', 'a:9:{i:0;s:1:\"q\";i:1;s:1:\"7\";i:2;s:1:\"a\";i:3;s:1:\"b\";i:4;s:1:\"j\";i:5;s:1:\"n\";i:6;s:1:\"x\";i:7;s:1:\"z\";i:8;s:1:\"h\";}', 1753435125),
-('laravel-cache-captcha_d0b47994d2111cd6b3527496e7b949f3', 'a:9:{i:0;s:1:\"t\";i:1;s:1:\"h\";i:2;s:1:\"z\";i:3;s:1:\"d\";i:4;s:1:\"8\";i:5;s:1:\"a\";i:6;s:1:\"8\";i:7;s:1:\"3\";i:8;s:1:\"y\";}', 1753431376),
-('laravel-cache-captcha_d69c071d1769e70cf12fb7e73d0996b0', 'a:9:{i:0;s:1:\"x\";i:1;s:1:\"m\";i:2;s:1:\"x\";i:3;s:1:\"d\";i:4;s:1:\"c\";i:5;s:1:\"t\";i:6;s:1:\"q\";i:7;s:1:\"2\";i:8;s:1:\"3\";}', 1753442780),
-('laravel-cache-captcha_d9ae77679583c3dfc2d1d54e8c8c6b68', 'a:9:{i:0;s:1:\"9\";i:1;s:1:\"6\";i:2;s:1:\"b\";i:3;s:1:\"q\";i:4;s:1:\"y\";i:5;s:1:\"e\";i:6;s:1:\"x\";i:7;s:1:\"u\";i:8;s:1:\"q\";}', 1753439142),
-('laravel-cache-captcha_dae62c68c8e9ca42d79081f66bb99829', 'a:9:{i:0;s:1:\"4\";i:1;s:1:\"q\";i:2;s:1:\"e\";i:3;s:1:\"y\";i:4;s:1:\"e\";i:5;s:1:\"x\";i:6;s:1:\"u\";i:7;s:1:\"t\";i:8;s:1:\"u\";}', 1753438519),
-('laravel-cache-captcha_dc8f624b85fc2fe3caf14c4f6272d627', 'a:9:{i:0;s:1:\"u\";i:1;s:1:\"d\";i:2;s:1:\"j\";i:3;s:1:\"g\";i:4;s:1:\"m\";i:5;s:1:\"e\";i:6;s:1:\"t\";i:7;s:1:\"m\";i:8;s:1:\"g\";}', 1753430375),
-('laravel-cache-captcha_dccbe28d11f0352e4ae73b95dc846967', 'a:9:{i:0;s:1:\"u\";i:1;s:1:\"4\";i:2;s:1:\"u\";i:3;s:1:\"4\";i:4;s:1:\"c\";i:5;s:1:\"7\";i:6;s:1:\"b\";i:7;s:1:\"a\";i:8;s:1:\"y\";}', 1753439111),
-('laravel-cache-captcha_de5584001e465b18131eb63a45ebe6e9', 'a:9:{i:0;s:1:\"a\";i:1;s:1:\"b\";i:2;s:1:\"q\";i:3;s:1:\"z\";i:4;s:1:\"x\";i:5;s:1:\"7\";i:6;s:1:\"y\";i:7;s:1:\"a\";i:8;s:1:\"d\";}', 1753534507),
-('laravel-cache-captcha_e21ba89da898a39b5c3acf3e93375437', 'a:9:{i:0;s:1:\"u\";i:1;s:1:\"t\";i:2;s:1:\"r\";i:3;s:1:\"h\";i:4;s:1:\"f\";i:5;s:1:\"c\";i:6;s:1:\"x\";i:7;s:1:\"x\";i:8;s:1:\"a\";}', 1753430367),
-('laravel-cache-captcha_e4fe6b1e3375234c7fbe45d2786dae21', 'a:9:{i:0;s:1:\"y\";i:1;s:1:\"x\";i:2;s:1:\"t\";i:3;s:1:\"x\";i:4;s:1:\"d\";i:5;s:1:\"g\";i:6;s:1:\"m\";i:7;s:1:\"j\";i:8;s:1:\"d\";}', 1753431230),
-('laravel-cache-captcha_e732e6bf92931dd95bb2a75a45d454b1', 'a:9:{i:0;s:1:\"x\";i:1;s:1:\"b\";i:2;s:1:\"b\";i:3;s:1:\"f\";i:4;s:1:\"e\";i:5;s:1:\"a\";i:6;s:1:\"g\";i:7;s:1:\"r\";i:8;s:1:\"d\";}', 1753439153),
-('laravel-cache-captcha_ea31ad175f21de22d0567a2bbf2217a2', 'a:9:{i:0;s:1:\"p\";i:1;s:1:\"b\";i:2;s:1:\"x\";i:3;s:1:\"8\";i:4;s:1:\"x\";i:5;s:1:\"q\";i:6;s:1:\"6\";i:7;s:1:\"7\";i:8;s:1:\"p\";}', 1753430864),
-('laravel-cache-captcha_ee37041830e4f58e5306520ad93c4828', 'a:9:{i:0;s:1:\"y\";i:1;s:1:\"b\";i:2;s:1:\"r\";i:3;s:1:\"z\";i:4;s:1:\"n\";i:5;s:1:\"h\";i:6;s:1:\"q\";i:7;s:1:\"7\";i:8;s:1:\"a\";}', 1753438653),
-('laravel-cache-captcha_f2071599d05c9bfb45082b2ef1ee89af', 'a:9:{i:0;s:1:\"a\";i:1;s:1:\"8\";i:2;s:1:\"f\";i:3;s:1:\"4\";i:4;s:1:\"q\";i:5;s:1:\"c\";i:6;s:1:\"n\";i:7;s:1:\"7\";i:8;s:1:\"8\";}', 1753431108),
-('laravel-cache-captcha_f3b1f945383c96c5557d18b9c424286d', 'a:9:{i:0;s:1:\"6\";i:1;s:1:\"p\";i:2;s:1:\"z\";i:3;s:1:\"x\";i:4;s:1:\"r\";i:5;s:1:\"a\";i:6;s:1:\"c\";i:7;s:1:\"y\";i:8;s:1:\"9\";}', 1754512105),
-('laravel-cache-captcha_f47c47f031ae98f414cb0e0b277c51e8', 'a:9:{i:0;s:1:\"n\";i:1;s:1:\"n\";i:2;s:1:\"y\";i:3;s:1:\"a\";i:4;s:1:\"g\";i:5;s:1:\"a\";i:6;s:1:\"f\";i:7;s:1:\"j\";i:8;s:1:\"h\";}', 1753430373),
-('laravel-cache-captcha_fcc5df27eb8ec643512e29386a3f75d9', 'a:9:{i:0;s:1:\"n\";i:1;s:1:\"d\";i:2;s:1:\"f\";i:3;s:1:\"3\";i:4;s:1:\"2\";i:5;s:1:\"d\";i:6;s:1:\"h\";i:7;s:1:\"y\";i:8;s:1:\"t\";}', 1753435154),
-('laravel-cache-captcha_fd8fd461881803223afd71c74fa02d7f', 'a:9:{i:0;s:1:\"h\";i:1;s:1:\"x\";i:2;s:1:\"t\";i:3;s:1:\"j\";i:4;s:1:\"d\";i:5;s:1:\"d\";i:6;s:1:\"c\";i:7;s:1:\"e\";i:8;s:1:\"j\";}', 1753431304);
-
 -- --------------------------------------------------------
 
 --
@@ -179,22 +59,6 @@ CREATE TABLE `failed_jobs` (
   `payload` longtext NOT NULL,
   `exception` longtext NOT NULL,
   `failed_at` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `jobs`
---
-
-CREATE TABLE `jobs` (
-  `id` bigint(20) UNSIGNED NOT NULL,
-  `queue` varchar(255) NOT NULL,
-  `payload` longtext NOT NULL,
-  `attempts` tinyint(3) UNSIGNED NOT NULL,
-  `reserved_at` int(10) UNSIGNED DEFAULT NULL,
-  `available_at` int(10) UNSIGNED NOT NULL,
-  `created_at` int(10) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
@@ -239,7 +103,9 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (4, '2025_07_24_110936_add_otp_fields_to_users_table', 2),
 (5, '2025_07_24_111038_add_otp_fields_to_users_table', 3),
 (6, '2025_07_24_111432_2025_07_24_create_profile_table', 4),
-(7, '2025_07_25_082842_add_role_fields_to_users_table', 4);
+(7, '2025_07_25_082842_add_role_fields_to_users_table', 4),
+(8, '2025_10_05_160820_create_personal_access_tokens_table', 5),
+(9, '2025_10_05_112913_add_role_to_users_table', 6);
 
 -- --------------------------------------------------------
 
@@ -266,16 +132,21 @@ CREATE TABLE `m_menu` (
 --
 
 INSERT INTO `m_menu` (`id`, `desc`, `parent_id`, `prefix`, `link`, `icon`, `position`, `role`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'Dashboard', '0', 'candidate', 'Dashboard', 'ri-dashboard-3-line', 1, 1, 1, '2025-04-08 05:10:47', '2025-08-06 07:27:26'),
-(2, 'Profile', '0', 'candidate', 'Profile', 'ri-dashboard-3-line', 2, 1, 1, '2025-04-08 05:10:47', '2025-08-06 07:27:32'),
-(3, 'Jobs', '0', 'candidate', 'Jobs', 'ri-dashboard-3-line', 3, 1, 1, '2025-04-08 05:10:47', '2025-08-06 07:27:35'),
-(4, 'Status', '0', 'candidate', 'Jobstatus', 'ri-dashboard-3-line', 4, 1, 1, '2025-04-08 05:10:47', '2025-08-06 07:26:24'),
-(5, 'Job Alerts', '0', 'candidate', 'Jobalert', 'ri-dashboard-3-line', 5, 1, 1, '2025-04-08 05:10:47', '2025-08-06 07:26:58'),
-(6, 'Privacy Setting', '0', 'candidate', 'Privacysetting', 'ri-dashboard-3-line', 6, 1, 1, '2025-04-08 05:10:47', '2025-08-06 07:28:06'),
-(7, 'Tracking', '0', 'candidate', 'JobTracking', 'ri-dashboard-3-line', 7, 1, 1, '2025-04-08 05:10:47', '2025-08-06 07:29:01'),
-(8, 'Dashboard', '0', 'employer', 'Dashboard', 'ri-dashboard-3-line', 1, 2, 1, '2025-04-08 05:10:47', '2025-08-06 07:27:26'),
-(9, 'Profile', '0', 'employer', 'Profile', 'ri-dashboard-3-line', 2, 2, 1, '2025-04-08 05:10:47', '2025-08-06 07:27:32'),
-(10, 'Jobs', '0', 'employer', 'Jobs', 'ri-dashboard-3-line', 3, 2, 1, '2025-04-08 05:10:47', '2025-08-06 07:27:35');
+(1, 'Dashboard', '0', 'user', 'Dashboard', 'ri-dashboard-3-line', 1, 1, 1, '2025-04-08 05:10:47', '2025-10-04 15:58:27'),
+(2, 'Profile', '0', 'user', 'Profile', 'ri-dashboard-3-line', 2, 1, 1, '2025-04-08 05:10:47', '2025-10-04 15:58:27'),
+(3, 'Dashboard', '0', 'admin', 'Dashboard', 'ri-dashboard-3-line', 1, 2, 1, '2025-04-08 05:10:47', '2025-10-04 15:59:16'),
+(4, 'Manage User', '0', 'admin', 'manage-user', 'ri-dashboard-3-line', 2, 2, 1, '2025-04-08 05:10:47', '2025-10-04 16:01:04'),
+(11, 'Course', '0', 'admin', '#', 'ri-dashboard-3-line', 3, 2, 1, '2025-04-08 05:10:47', '2025-10-04 17:39:50'),
+(12, 'Exam Form', '0', 'admin', '#', 'ri-dashboard-3-line', 4, 2, 1, '2025-04-08 05:10:47', '2025-10-04 19:50:25'),
+(13, 'Manage Exam Form Submission', '0', 'admin', 'manage-exam-form-submission', 'ri-dashboard-3-line', 5, 2, 1, '2025-04-08 05:10:47', '2025-10-04 16:00:11'),
+(14, 'Manage Payments', '0', 'admin', 'manage-payments', 'ri-dashboard-3-line', 6, 2, 1, '2025-04-08 05:10:47', '2025-10-04 16:00:11'),
+(15, 'Add Course', '11', 'admin', 'add-course', 'ri-dashboard-3-line', 3, 2, 1, '2025-04-08 05:10:47', '2025-10-04 17:03:25'),
+(16, 'Manage Course', '11', 'admin', 'manage-course', 'ri-dashboard-3-line', 3, 2, 1, '2025-04-08 05:10:47', '2025-10-04 17:03:25'),
+(17, 'Add Exam Form', '12', 'admin', 'add-exam-form', 'ri-dashboard-3-line', 4, 2, 1, '2025-04-08 05:10:47', '2025-10-04 19:51:09'),
+(18, 'Manage Exam Form', '12', 'admin', 'manage-exam-form', 'ri-dashboard-3-line', 4, 2, 1, '2025-04-08 05:10:47', '2025-10-04 19:51:06'),
+(20, 'Exam Form', '0', 'user', '#', 'ri-dashboard-3-line', 3, 1, 1, '2025-04-08 05:10:47', '2025-10-04 15:58:27'),
+(21, 'Fill Exam Form', '20', 'user', 'fill-exam-form', 'ri-dashboard-3-line', 3, 1, 1, '2025-04-08 05:10:47', '2025-10-04 15:58:27'),
+(22, 'Application Payment Submit', '20', 'user', 'exam-form-payment', 'ri-dashboard-3-line', 3, 1, 1, '2025-04-08 05:10:47', '2025-10-04 15:58:27');
 
 -- --------------------------------------------------------
 
@@ -287,6 +158,25 @@ CREATE TABLE `password_reset_tokens` (
   `email` varchar(255) NOT NULL,
   `token` varchar(255) NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `personal_access_tokens`
+--
+
+CREATE TABLE `personal_access_tokens` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `tokenable_type` varchar(255) NOT NULL,
+  `tokenable_id` bigint(20) UNSIGNED NOT NULL,
+  `name` text NOT NULL,
+  `token` varchar(64) NOT NULL,
+  `abilities` text DEFAULT NULL,
+  `last_used_at` timestamp NULL DEFAULT NULL,
+  `expires_at` timestamp NULL DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
@@ -309,232 +199,171 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('ERg6e3QZWrOw4jVifSAz1KoWjtrNzeCRAofip75O', 7, '::1', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiQkMwQlBVNGc0TWhtRUpqUUtpdWlNYjVSVjNldlo3eEp5aGxGUERFYSI7czozOiJ1cmwiO2E6MTp7czo4OiJpbnRlbmRlZCI7czozOToiaHR0cDovL2xvY2FsaG9zdDo4MDAwL2NhbmRpZGF0ZS9Qcm9maWxlIjt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDE6Imh0dHA6Ly9sb2NhbGhvc3Q6ODAwMC9jYW5kaWRhdGUvRGFzaGJvYXJkIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czoxMjoiY2FwdGNoYV90ZXh0IjtzOjY6IlFFRThIMCI7czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6Nzt9', 1755163927);
+('2fAgXI0R7WipPsdlo0R1ZbwwQgd0PVyNbO8QSigW', 9, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiMVlWdVJXRWVhVzh2NFZaMnl0NzdEVDdQS1NpdmQxazNqU1FTRjJEZCI7czozOiJ1cmwiO2E6MTp7czo4OiJpbnRlbmRlZCI7czozNzoiaHR0cDovL2xvY2FsaG9zdDo4MDAwL2FkbWluL0Rhc2hib2FyZCI7fXM6OToiX3ByZXZpb3VzIjthOjE6e3M6MzoidXJsIjtzOjU1OiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYWRtaW4vbWFuYWdlLWV4YW0tZm9ybS1zdWJtaXNzaW9uIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czoxMjoiY2FwdGNoYV90ZXh0IjtzOjY6IkxVMEI0RCI7czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6OTt9', 1759730490),
+('MavakJO77X7gf7SLs0YQuEkLQFJmgTtxoeeP4HsM', NULL, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiWW54ZWc3ejZIS0dmZDR4VzhLZFV1Nkh2amVsaTJFUWFlRVUwR29TUCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJuZXciO2E6MDp7fXM6Mzoib2xkIjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDg6Imh0dHA6Ly9sb2NhbGhvc3Q6ODAwMC9jYXB0Y2hhLWltYWdlP3Q9MTc1OTczMTMzMSI7fXM6MTI6ImNhcHRjaGFfdGV4dCI7czo2OiJUTzFOVEsiO30=', 1759731331);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_award_certificate`
+-- Table structure for table `tbl_appln_form`
 --
 
-CREATE TABLE `tbl_award_certificate` (
+CREATE TABLE `tbl_appln_form` (
   `id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `name` varchar(255) DEFAULT NULL,
-  `link` varchar(255) DEFAULT NULL,
+  `appln_no` varchar(20) NOT NULL,
+  `exam_id` int(10) NOT NULL,
+  `user_id` int(10) NOT NULL,
+  `full_name` varchar(100) NOT NULL,
+  `father_name` varchar(100) DEFAULT NULL,
+  `roll_no` varchar(30) NOT NULL,
+  `college` varchar(255) DEFAULT NULL,
+  `university` varchar(255) DEFAULT NULL,
+  `status` enum('pending','approved','rejected') NOT NULL DEFAULT 'pending',
+  `payment_status` enum('P','S','F') DEFAULT 'P',
+  `payment_order_id` varchar(64) DEFAULT NULL,
+  `payment_id` varchar(64) DEFAULT NULL,
+  `paid_at` datetime DEFAULT NULL,
+  `created_at` datetime NOT NULL DEFAULT current_timestamp(),
+  `updated_at` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `tbl_appln_form`
+--
+
+INSERT INTO `tbl_appln_form` (`id`, `appln_no`, `exam_id`, `user_id`, `full_name`, `father_name`, `roll_no`, `college`, `university`, `status`, `payment_status`, `payment_order_id`, `payment_id`, `paid_at`, `created_at`, `updated_at`) VALUES
+(1, '20251006080331', 1, 7, 'Bhuvan Gupta', 'Rajesh Kumar', '1122003332', 'Rajasthan Swayat Shasan Mahavidyalaya', 'University of Rajasthan', 'pending', 'S', 'order_RQ3CxKhfP67pyc', 'pay_RQ3D61TxF7PCkB', '2025-10-06 09:41:43', '2025-10-06 08:03:31', '2025-10-06 08:03:31');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_course`
+--
+
+CREATE TABLE `tbl_course` (
+  `id` int(11) NOT NULL,
+  `year_of_study` int(3) NOT NULL,
+  `course_code` varchar(50) DEFAULT NULL,
+  `program` varchar(255) DEFAULT NULL,
+  `status` enum('A','I') NOT NULL COMMENT 'A=active, I=inactive',
   `created_at` datetime NOT NULL DEFAULT current_timestamp(),
   `updated_at` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `tbl_award_certificate`
+-- Dumping data for table `tbl_course`
 --
 
-INSERT INTO `tbl_award_certificate` (`id`, `user_id`, `name`, `link`, `created_at`, `updated_at`) VALUES
-(1, 7, 'Participate in Hackathon', 'https://www.udemy.com/', '2025-08-14 07:29:26', '2025-08-14 07:29:26'),
-(2, 7, 'Got Certificate From Google', 'https://www.google.com/', '2025-08-14 07:29:26', '2025-08-14 07:29:26');
+INSERT INTO `tbl_course` (`id`, `year_of_study`, `course_code`, `program`, `status`, `created_at`, `updated_at`) VALUES
+(1, 1, 'BCom', 'Bachelors of Commerce', 'A', '2025-10-04 17:55:04', '2025-10-04 17:55:04');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_candidate_profile`
+-- Table structure for table `tbl_course_subject`
 --
 
-CREATE TABLE `tbl_candidate_profile` (
+CREATE TABLE `tbl_course_subject` (
   `id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `dob` date DEFAULT NULL,
-  `gender` enum('M','F','O') DEFAULT NULL COMMENT 'M=Male,F=Female,O=Others',
-  `email` varchar(100) NOT NULL,
-  `mobile` varchar(25) NOT NULL,
-  `address` text DEFAULT NULL,
-  `city` varchar(100) DEFAULT NULL,
-  `state` varchar(100) DEFAULT NULL,
-  `pincode` varchar(10) DEFAULT NULL,
-  `marital_status` varchar(100) DEFAULT NULL,
-  `category` varchar(100) DEFAULT NULL,
-  `profile_img` varchar(255) DEFAULT NULL,
-  `is_profile_public` enum('0','1') NOT NULL DEFAULT '0' COMMENT '0=No, 1=Yes',
-  `job_alert_enabled` enum('0','1') NOT NULL DEFAULT '1' COMMENT '0=No, 1=Yes',
+  `course_id` int(10) NOT NULL,
+  `subject_id` int(10) NOT NULL,
+  `status` enum('A','I') NOT NULL COMMENT 'A=active, I=inactive',
   `created_at` datetime NOT NULL DEFAULT current_timestamp(),
   `updated_at` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `tbl_candidate_profile`
+-- Dumping data for table `tbl_course_subject`
 --
 
-INSERT INTO `tbl_candidate_profile` (`id`, `user_id`, `name`, `dob`, `gender`, `email`, `mobile`, `address`, `city`, `state`, `pincode`, `marital_status`, `category`, `profile_img`, `is_profile_public`, `job_alert_enabled`, `created_at`, `updated_at`) VALUES
-(1, 7, 'Bhuvan Gupta', '1997-01-08', 'M', 'bhuvan.veritos@gmail.com', '8118879069', 'Plot 89, Shahi Majra, Mohali', 'Mohali', 'Punjab', '146001', 'single', 'general', '1755082406_689c6ea64f4d3.png', '0', '1', '2025-07-27 20:19:00', NULL);
+INSERT INTO `tbl_course_subject` (`id`, `course_id`, `subject_id`, `status`, `created_at`, `updated_at`) VALUES
+(1, 1, 1, 'A', '2025-10-04 19:16:27', '2025-10-04 19:16:27'),
+(2, 1, 4, 'A', '2025-10-04 19:16:27', '2025-10-04 19:16:27'),
+(3, 1, 7, 'A', '2025-10-04 19:16:27', '2025-10-04 19:16:27'),
+(4, 1, 10, 'A', '2025-10-04 19:16:27', '2025-10-04 19:16:27'),
+(5, 1, 13, 'A', '2025-10-04 19:16:27', '2025-10-04 19:16:27'),
+(8, 1, 16, 'A', '2025-10-04 19:26:10', '2025-10-04 19:26:10');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_candidate_profile_status`
+-- Table structure for table `tbl_exam`
 --
 
-CREATE TABLE `tbl_candidate_profile_status` (
+CREATE TABLE `tbl_exam` (
   `id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `profile_update` tinyint(1) NOT NULL DEFAULT 0,
-  `workex_update` tinyint(1) NOT NULL DEFAULT 0,
-  `qualification_update` tinyint(1) NOT NULL DEFAULT 0,
-  `social_update` tinyint(1) NOT NULL DEFAULT 0,
-  `skill_update` tinyint(1) NOT NULL DEFAULT 0,
-  `language_update` tinyint(1) NOT NULL DEFAULT 0,
-  `award_update` tinyint(1) NOT NULL DEFAULT 0,
-  `enclosure_update` tinyint(1) NOT NULL DEFAULT 0
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `tbl_candidate_profile_status`
---
-
-INSERT INTO `tbl_candidate_profile_status` (`id`, `user_id`, `profile_update`, `workex_update`, `qualification_update`, `social_update`, `skill_update`, `language_update`, `award_update`, `enclosure_update`) VALUES
-(1, 7, 1, 1, 1, 1, 1, 1, 1, 1);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `tbl_employer_profile`
---
-
-CREATE TABLE `tbl_employer_profile` (
-  `id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `email` varchar(100) NOT NULL,
-  `mobile` varchar(20) NOT NULL,
-  `profile_img` varchar(255) DEFAULT NULL,
-  `org_category` int(3) NOT NULL,
-  `org_name` varchar(255) DEFAULT NULL,
-  `org_email` varchar(100) DEFAULT NULL,
-  `org_mobile` varchar(20) DEFAULT NULL,
-  `org_logo` varchar(255) DEFAULT NULL,
-  `org_description` text DEFAULT NULL,
-  `org_website` varchar(255) DEFAULT NULL,
-  `address` varchar(255) DEFAULT NULL,
-  `city` varchar(100) DEFAULT NULL,
-  `state` varchar(100) DEFAULT NULL,
-  `pincode` varchar(10) DEFAULT NULL,
-  `created_at` datetime NOT NULL DEFAULT current_timestamp(),
-  `updated_at` datetime DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `tbl_employer_profile`
---
-
-INSERT INTO `tbl_employer_profile` (`id`, `user_id`, `name`, `email`, `mobile`, `profile_img`, `org_category`, `org_name`, `org_email`, `org_mobile`, `org_logo`, `org_description`, `org_website`, `address`, `city`, `state`, `pincode`, `created_at`, `updated_at`) VALUES
-(2, 9, 'Gourav Mahipal', 'gourav@veritos.in', '8882373333', NULL, 2, 'Sunrise Softwares Pvt Ltd', 'sunrise.soft@gmail.com', '8822112233', '63c5c76560dae70384daf57375b46bc8_l.jpg', 'Software development company', 'sunrisesoft.com', 'D-190, Industrial area, Mohali, Punjab', 'Mohali', 'Punjab', '170045', '2025-08-07 02:27:37', NULL),
-(3, 10, 'Bhuvan Gupta', 'webalignsolutions@gmail.com', '7877258521', NULL, 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2025-08-12 17:01:13', NULL);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `tbl_employer_type`
---
-
-CREATE TABLE `tbl_employer_type` (
-  `id` int(11) NOT NULL,
-  `type` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `tbl_employer_type`
---
-
-INSERT INTO `tbl_employer_type` (`id`, `type`) VALUES
-(1, 'Hospital'),
-(2, 'Company'),
-(3, 'Government Department');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `tbl_job`
---
-
-CREATE TABLE `tbl_job` (
-  `id` int(11) NOT NULL,
-  `emp_id` int(11) NOT NULL,
-  `department` varchar(100) DEFAULT NULL,
   `title` varchar(255) DEFAULT NULL,
-  `address` varchar(300) DEFAULT NULL,
-  `city` varchar(100) DEFAULT NULL,
-  `state` varchar(100) DEFAULT NULL,
-  `pincode` varchar(10) DEFAULT NULL,
-  `job_type` int(3) DEFAULT NULL,
-  `exp_from` tinyint(5) DEFAULT NULL,
-  `exp_to` tinyint(5) DEFAULT NULL,
-  `exp_type` enum('M','Y','D') NOT NULL DEFAULT 'Y' COMMENT 'M=month, Y=year, D=day',
-  `min_salary` int(10) DEFAULT NULL,
-  `max_salary` int(10) DEFAULT NULL,
-  `sal_type` enum('M','Y') NOT NULL DEFAULT 'Y' COMMENT 'M=month, Y=year',
-  `key_skills` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL CHECK (json_valid(`key_skills`)),
-  `description` text DEFAULT NULL,
-  `appln_deadline` date DEFAULT NULL,
-  `status` enum('A','I') NOT NULL DEFAULT 'A',
+  `course_id` int(11) NOT NULL,
+  `session_id` tinyint(4) NOT NULL,
+  `exam_type` tinyint(4) NOT NULL,
+  `form_start_at` datetime DEFAULT NULL,
+  `form_end_at` datetime DEFAULT NULL,
+  `exam_fee` decimal(6,2) NOT NULL,
+  `status` enum('draft','published','closed') NOT NULL,
   `created_at` datetime NOT NULL DEFAULT current_timestamp(),
   `updated_at` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `tbl_job`
+-- Dumping data for table `tbl_exam`
 --
 
-INSERT INTO `tbl_job` (`id`, `emp_id`, `department`, `title`, `address`, `city`, `state`, `pincode`, `job_type`, `exp_from`, `exp_to`, `exp_type`, `min_salary`, `max_salary`, `sal_type`, `key_skills`, `description`, `appln_deadline`, `status`, `created_at`, `updated_at`) VALUES
-(1, 9, 'HR Department', 'HR Intern', 'Mohali, Punjab', NULL, NULL, NULL, 3, 0, 6, 'M', 4000, 7000, 'M', '\"Hiring,Accusition\"', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '2025-08-17', 'A', '2025-08-12 06:15:32', NULL),
-(2, 9, 'HR Department', 'HR Intern', 'Patiala, Punjab', NULL, NULL, NULL, 3, 0, 6, 'M', 4000, 7000, 'M', '\"Hiring,Accusition\"', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.', '2025-08-14', 'A', '2025-08-12 06:15:32', NULL);
+INSERT INTO `tbl_exam` (`id`, `title`, `course_id`, `session_id`, `exam_type`, `form_start_at`, `form_end_at`, `exam_fee`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'Session 2025 (Bcom Course Exam Form 1st Year)', 1, 2, 1, '2025-10-05 11:00:00', '2025-10-08 12:00:00', 2500.00, 'published', '2025-10-04 20:45:45', '2025-10-05 11:36:00');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_jobtype`
+-- Table structure for table `tbl_exam_type`
 --
 
-CREATE TABLE `tbl_jobtype` (
+CREATE TABLE `tbl_exam_type` (
   `id` int(11) NOT NULL,
-  `name` varchar(255) DEFAULT NULL
+  `type` varchar(255) DEFAULT NULL,
+  `status` enum('A','I') NOT NULL COMMENT 'A=active,I=inactive',
+  `created_at` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `tbl_jobtype`
+-- Dumping data for table `tbl_exam_type`
 --
 
-INSERT INTO `tbl_jobtype` (`id`, `name`) VALUES
-(1, 'Full Time'),
-(2, 'Part Time'),
-(3, 'Internship'),
-(4, 'Contract'),
-(5, 'Freelance');
+INSERT INTO `tbl_exam_type` (`id`, `type`, `status`, `created_at`) VALUES
+(1, 'Regular', 'A', '2025-10-05 10:31:17'),
+(2, 'Supplementary', 'A', '2025-10-05 10:31:17'),
+(3, 'Ex-Student', 'A', '2025-10-05 10:31:17');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_job_experience`
+-- Table structure for table `tbl_payments`
 --
 
-CREATE TABLE `tbl_job_experience` (
-  `id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `company_name` varchar(255) DEFAULT NULL,
-  `work_title` varchar(255) DEFAULT NULL,
-  `start_dt` date DEFAULT NULL,
-  `last_working_dt` date DEFAULT NULL,
-  `description` text DEFAULT NULL,
-  `created_at` datetime NOT NULL DEFAULT current_timestamp(),
-  `updated_at` datetime DEFAULT NULL
+CREATE TABLE `tbl_payments` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `user_id` bigint(20) UNSIGNED DEFAULT NULL,
+  `appln_id` bigint(20) UNSIGNED NOT NULL,
+  `order_id` varchar(64) NOT NULL,
+  `payment_id` varchar(64) DEFAULT NULL,
+  `signature` varchar(128) DEFAULT NULL,
+  `amount` int(11) NOT NULL,
+  `currency` varchar(10) DEFAULT 'INR',
+  `status` enum('created','paid','failed') DEFAULT 'created',
+  `method` varchar(50) DEFAULT NULL,
+  `email` varchar(120) DEFAULT NULL,
+  `contact` varchar(20) DEFAULT NULL,
+  `notes` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL CHECK (json_valid(`notes`)),
+  `raw_response` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL CHECK (json_valid(`raw_response`)),
+  `created_at` timestamp NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `tbl_job_experience`
+-- Dumping data for table `tbl_payments`
 --
 
-INSERT INTO `tbl_job_experience` (`id`, `user_id`, `company_name`, `work_title`, `start_dt`, `last_working_dt`, `description`, `created_at`, `updated_at`) VALUES
-(10, 7, 'Veritos Infosolutions Pvt Ltd', 'Senior Web Developer', '2022-03-01', '2024-08-13', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2025-08-13 12:56:42', '2025-08-13 12:56:42'),
-(11, 7, 'Phoenix advance softwares Pvt Ltd', 'Web Developer Intern', '2021-08-14', '2022-02-22', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2025-08-13 12:56:42', '2025-08-13 12:56:42');
+INSERT INTO `tbl_payments` (`id`, `user_id`, `appln_id`, `order_id`, `payment_id`, `signature`, `amount`, `currency`, `status`, `method`, `email`, `contact`, `notes`, `raw_response`, `created_at`, `updated_at`) VALUES
+(5, 7, 1, 'order_RQ3CxKhfP67pyc', 'pay_RQ3D61TxF7PCkB', '6b3aae9f04a8bf0b22e859c181555554cc642ff866e344e9b3fce81d991bccce', 250000, 'INR', 'paid', NULL, NULL, NULL, NULL, NULL, '2025-10-06 04:11:20', '2025-10-06 04:11:43');
 
 -- --------------------------------------------------------
 
@@ -552,133 +381,151 @@ CREATE TABLE `tbl_role` (
 --
 
 INSERT INTO `tbl_role` (`id`, `name`) VALUES
-(1, 'Candidate'),
-(2, 'Employer');
+(1, 'user'),
+(2, 'admin');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_social_links`
+-- Table structure for table `tbl_session`
 --
 
-CREATE TABLE `tbl_social_links` (
+CREATE TABLE `tbl_session` (
+  `id` int(10) NOT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `status` enum('A','I') NOT NULL COMMENT 'A=active, I=inactive',
+  `created_at` datetime NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `tbl_session`
+--
+
+INSERT INTO `tbl_session` (`id`, `name`, `status`, `created_at`) VALUES
+(1, '2024', 'A', '2025-10-05 01:32:03'),
+(2, '2025', 'A', '2025-10-05 01:32:03'),
+(3, '2026', 'A', '2025-10-05 01:32:03');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_student_exam_allowed`
+--
+
+CREATE TABLE `tbl_student_exam_allowed` (
   `id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `link_type` varchar(100) DEFAULT NULL,
-  `link` varchar(255) DEFAULT NULL,
+  `roll_no` varchar(20) NOT NULL,
+  `name` varchar(100) DEFAULT NULL,
+  `father_name` varchar(100) DEFAULT NULL,
+  `college` varchar(255) DEFAULT NULL,
+  `university` varchar(255) DEFAULT NULL,
+  `session` varchar(20) DEFAULT NULL,
+  `exam_type` varchar(20) DEFAULT NULL,
+  `course` varchar(20) DEFAULT NULL,
   `created_at` datetime NOT NULL DEFAULT current_timestamp(),
   `updated_at` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `tbl_social_links`
+-- Dumping data for table `tbl_student_exam_allowed`
 --
 
-INSERT INTO `tbl_social_links` (`id`, `user_id`, `link_type`, `link`, `created_at`, `updated_at`) VALUES
-(11, 7, 'LinkedIn', 'https://www.linkedin.com/feed/', '2025-08-14 08:32:32', '2025-08-14 08:32:32'),
-(12, 7, 'Twitter', 'https://x.com', '2025-08-14 08:32:32', '2025-08-14 08:32:32'),
-(13, 7, 'Instagram', 'https://www.instagram.com/', '2025-08-14 08:32:32', '2025-08-14 08:32:32'),
-(14, 7, 'Facebook', 'https://www.facebook.com/', '2025-08-14 08:32:32', '2025-08-14 08:32:32'),
-(15, 7, 'Youtube', 'https://youtube.com/', '2025-08-14 08:32:32', '2025-08-14 08:32:32');
+INSERT INTO `tbl_student_exam_allowed` (`id`, `roll_no`, `name`, `father_name`, `college`, `university`, `session`, `exam_type`, `course`, `created_at`, `updated_at`) VALUES
+(1, '202501001', 'Amit Sharma', 'Rajesh Sharma', 'DAV College', 'Panjab University', '2025', 'Regular', 'BCA', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(2, '202501002', 'Neha Gupta', 'Ramesh Gupta', 'DAV College', 'Panjab University', '2025', 'Regular', 'BCA', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(3, '202501003', 'Rohit Mehta', 'Suresh Mehta', 'Government College', 'Kurukshetra University', '2025', 'Regular', 'BCom', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(4, '202501004', 'Simran Kaur', 'Harbhajan Singh', 'Khalsa College', 'GNDU', '2025', 'Regular', 'BBA', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(5, '202501005', 'Deepak Kumar', 'Vijay Kumar', 'Hindu College', 'Delhi University', '2025', 'Regular', 'BA', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(6, '202501006', 'Anjali Verma', 'Mahesh Verma', 'DAV College', 'Panjab University', '2025', 'Reappear', 'BCA', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(7, '202501007', 'Pankaj Thakur', 'Madan Thakur', 'Government College', 'HP University', '2025', 'Regular', 'BSc', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(8, '202501008', 'Priya Rani', 'Mukesh Rani', 'DAV College', 'Panjab University', '2025', 'Regular', 'BCA', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(9, '202501009', 'Karan Singh', 'Manmohan Singh', 'Khalsa College', 'GNDU', '2025', 'Reappear', 'BCom', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(10, '202501010', 'Divya Sharma', 'Om Prakash', 'Hindu College', 'Delhi University', '2025', 'Regular', 'BA', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(11, '202501011', 'Ajay Kumar', 'Sanjay Kumar', 'Government College', 'HP University', '2025', 'Regular', 'BSc', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(12, '202501012', 'Nidhi Chauhan', 'Pratap Chauhan', 'DAV College', 'Panjab University', '2025', 'Regular', 'BBA', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(13, '202501013', 'Vivek Saini', 'Narender Saini', 'Khalsa College', 'GNDU', '2025', 'Reappear', 'BCom', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(14, '202501014', 'Pooja Rani', 'Ramesh Lal', 'Hindu College', 'Delhi University', '2025', 'Regular', 'BCA', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(15, '202501015', 'Sahil Arora', 'Vinod Arora', 'DAV College', 'Panjab University', '2025', 'Regular', 'BCA', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(16, '202501016', 'Aman Kumar', 'Raj Kumar', 'Government College', 'HP University', '2025', 'Regular', 'BSc', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(17, '202501017', 'Sneha Gupta', 'Ajay Gupta', 'DAV College', 'Panjab University', '2025', 'Regular', 'BBA', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(18, '202501018', 'Mohit Yadav', 'Satish Yadav', 'Khalsa College', 'GNDU', '2025', 'Reappear', 'BCom', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(19, '202501019', 'Komal Sharma', 'Deepak Sharma', 'Hindu College', 'Delhi University', '2025', 'Regular', 'BA', '2025-10-06 00:00:52', '2025-10-06 00:00:52'),
+(20, '202501020', 'Ritika Chauhan', 'Manoj Chauhan', 'DAV College', 'Panjab University', '2025', 'Regular', 'BCA', '2025-10-06 00:00:52', '2025-10-06 00:00:52');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_user_enclosures`
+-- Table structure for table `tbl_subject`
 --
 
-CREATE TABLE `tbl_user_enclosures` (
+CREATE TABLE `tbl_subject` (
   `id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `doc_type` varchar(100) DEFAULT NULL,
-  `document` varchar(255) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `status` enum('A','I') NOT NULL COMMENT 'A=active, I=inactive',
   `created_at` datetime NOT NULL DEFAULT current_timestamp(),
   `updated_at` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `tbl_user_enclosures`
+-- Dumping data for table `tbl_subject`
 --
 
-INSERT INTO `tbl_user_enclosures` (`id`, `user_id`, `doc_type`, `document`, `created_at`, `updated_at`) VALUES
-(10, 7, 'resume', '71755158803_resume.pdf', '2025-08-14 08:06:43', '2025-08-14 08:06:43'),
-(11, 7, 'experience_certificate', '71755158803_experience_certificate.docx', '2025-08-14 08:06:43', '2025-08-14 08:06:43'),
-(12, 7, 'additional_certificate', '71755158803_additional_certificate.pdf', '2025-08-14 08:06:43', '2025-08-14 08:06:43');
+INSERT INTO `tbl_subject` (`id`, `name`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'Mathematics', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(2, 'Physics', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(3, 'Chemistry', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(4, 'Biology', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(5, 'English Literature', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(6, 'Computer Science', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(7, 'Economics', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(8, 'Political Science', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(9, 'History', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(10, 'Geography', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(11, 'Philosophy', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(12, 'Psychology', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(13, 'Sociology', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(14, 'Business Administration', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(15, 'Accountancy', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(16, 'Statistics', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(17, 'Environmental Science', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(18, 'Fine Arts', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(19, 'Education', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43'),
+(20, 'Law', 'A', '2025-10-05 00:24:43', '2025-10-05 00:24:43');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_user_languages`
+-- Table structure for table `tbl_user_profile`
 --
 
-CREATE TABLE `tbl_user_languages` (
+CREATE TABLE `tbl_user_profile` (
   `id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
-  `language` varchar(255) DEFAULT NULL,
+  `name` varchar(255) NOT NULL,
+  `dob` date DEFAULT NULL,
+  `gender` enum('M','F','O') DEFAULT NULL COMMENT 'M=Male,F=Female,O=Others',
+  `email` varchar(100) NOT NULL,
+  `mobile` varchar(25) NOT NULL,
+  `address` text DEFAULT NULL,
+  `city` varchar(100) DEFAULT NULL,
+  `state` varchar(100) DEFAULT NULL,
+  `pincode` varchar(10) DEFAULT NULL,
+  `marital_status` varchar(100) DEFAULT NULL,
+  `category` varchar(100) DEFAULT NULL,
+  `profile_img` varchar(255) DEFAULT NULL,
+  `user_photo` varchar(255) DEFAULT NULL,
+  `user_sign` varchar(255) DEFAULT NULL,
   `created_at` datetime NOT NULL DEFAULT current_timestamp(),
   `updated_at` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `tbl_user_languages`
+-- Dumping data for table `tbl_user_profile`
 --
 
-INSERT INTO `tbl_user_languages` (`id`, `user_id`, `language`, `created_at`, `updated_at`) VALUES
-(4, 7, 'English', '2025-08-14 07:11:16', '2025-08-14 07:11:16'),
-(5, 7, 'Hindi', '2025-08-14 07:11:16', '2025-08-14 07:11:16');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `tbl_user_qualification`
---
-
-CREATE TABLE `tbl_user_qualification` (
-  `id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `qualification` varchar(255) DEFAULT NULL,
-  `col_uni_name` varchar(255) DEFAULT NULL,
-  `start_year` year(4) DEFAULT NULL,
-  `last_study_year` year(4) DEFAULT NULL,
-  `description` text DEFAULT NULL,
-  `created_at` datetime NOT NULL DEFAULT current_timestamp(),
-  `updated_at` datetime DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `tbl_user_qualification`
---
-
-INSERT INTO `tbl_user_qualification` (`id`, `user_id`, `qualification`, `col_uni_name`, `start_year`, `last_study_year`, `description`, `created_at`, `updated_at`) VALUES
-(6, 7, 'Bachelor\'s of Computer Applications', 'Rajasthan Swayat Shasan Mahavidyalaya', '2016', '2019', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2025-08-13 13:06:02', '2025-08-13 13:06:02'),
-(7, 7, '12th', 'Kendriya Vidyalaya No.1, Jaipur', '2014', '2015', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2025-08-13 13:06:02', '2025-08-13 13:06:02'),
-(8, 7, '10th', 'Kendriya Vidyalaya No.1, Jaipur', '2012', '2013', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2025-08-13 13:06:02', '2025-08-13 13:06:02');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `tbl_user_skills`
---
-
-CREATE TABLE `tbl_user_skills` (
-  `id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `skills` varchar(100) DEFAULT NULL,
-  `percent` tinyint(50) DEFAULT NULL,
-  `created_at` datetime NOT NULL DEFAULT current_timestamp(),
-  `updated_at` datetime DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `tbl_user_skills`
---
-
-INSERT INTO `tbl_user_skills` (`id`, `user_id`, `skills`, `percent`, `created_at`, `updated_at`) VALUES
-(6, 7, 'PHP', 70, '2025-08-13 18:32:37', '2025-08-13 18:32:37'),
-(7, 7, 'Laravel', 40, '2025-08-13 18:32:37', '2025-08-13 18:32:37'),
-(8, 7, 'Codeigniter', 60, '2025-08-13 18:32:37', '2025-08-13 18:32:37'),
-(9, 7, 'MySQL', 60, '2025-08-13 18:32:37', '2025-08-13 18:32:37'),
-(10, 7, 'Javascript', 40, '2025-08-13 18:32:37', '2025-08-13 18:32:37');
+INSERT INTO `tbl_user_profile` (`id`, `user_id`, `name`, `dob`, `gender`, `email`, `mobile`, `address`, `city`, `state`, `pincode`, `marital_status`, `category`, `profile_img`, `user_photo`, `user_sign`, `created_at`, `updated_at`) VALUES
+(1, 7, 'Bhuvan Gupta', '1997-01-08', 'M', 'bhuvan.veritos@gmail.com', '8118879069', 'Plot 89, Shahi Majra, Mohali', 'Mohali', 'Punjab', '146001', 'single', 'general', '1755082406_689c6ea64f4d3.png', '1759728337_68e352d17bf9e.jpg', '1759728337_68e352d17d957.jpg', '2025-07-27 20:19:00', NULL),
+(2, 12, 'Vishal Singh', '2025-10-06', 'M', 'vishalddd@gmail.com', '8887772223', 'ddssdd', 'Mohali', 'Punjab', '146001', 'single', 'general', NULL, '1759731321_68e35e79292c7.jpg', '1759731321_68e35e7929e4b.jpg', '2025-10-06 11:38:42', NULL);
 
 -- --------------------------------------------------------
 
@@ -706,9 +553,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `mobile`, `mobile_verified_at`, `password`, `role`, `is_profile_updated`, `remember_token`, `created_at`, `updated_at`) VALUES
-(7, 'Bhuvan Gupta', 'bhuvan.veritos@gmail.com', NULL, '8118879069', NULL, '$2y$12$BeKkQ4oJuEPAxGf3AoLysOUxg6rUTgMdD6rh2rZ6Uw1h7hVRmN7cW', '1', '2025-08-14 08:32:32', NULL, '2025-07-27 09:19:00', '2025-07-27 09:19:00'),
-(9, 'Gourav Mahipal', 'gourav@veritos.in', NULL, '8882373333', NULL, '$2y$12$M/2WgxOAoffMqeM.uFAxM.eksBrjaX5.M0iQ2T8VaXxUt9XAp9CaW', '2', NULL, NULL, '2025-08-06 15:27:37', '2025-08-06 15:27:37'),
-(10, 'Bhuvan Gupta new', 'bhuvangupta8197@gmail.com', NULL, '7877258521', NULL, '$2y$12$pH5nyuZH/lUSNhHQkuyGr./1ACs3i6yBJQJ/B.Zx/aoInlVYhf5vq', '2', NULL, NULL, '2025-08-12 06:01:13', '2025-08-12 06:01:13');
+(7, 'Bhuvan Gupta', 'bhuvan.veritos@gmail.com', NULL, '8118879069', NULL, '$2y$12$M/2WgxOAoffMqeM.uFAxM.eksBrjaX5.M0iQ2T8VaXxUt9XAp9CaW', '1', '2025-10-06 10:55:37', NULL, '2025-07-27 09:19:00', '2025-07-27 09:19:00'),
+(9, 'Admin', 'admin@gmail.com', NULL, '8882373333', NULL, '$2y$12$M/2WgxOAoffMqeM.uFAxM.eksBrjaX5.M0iQ2T8VaXxUt9XAp9CaW', '2', NULL, NULL, '2025-08-06 15:27:37', '2025-08-06 15:27:37'),
+(12, 'Vishal Singh', 'vishalddd@gmail.com', NULL, '8887772223', NULL, '$2y$12$/4dCEYxzeImwutC.sXwfZOhS8y5NkCCJ5M34xDdcZIklyFhd3DIL.', '1', '2025-10-06 11:45:21', NULL, '2025-10-06 06:08:42', '2025-10-06 06:08:42');
 
 --
 -- Indexes for dumped tables
@@ -732,13 +579,6 @@ ALTER TABLE `cache_locks`
 ALTER TABLE `failed_jobs`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `failed_jobs_uuid_unique` (`uuid`);
-
---
--- Indexes for table `jobs`
---
-ALTER TABLE `jobs`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `jobs_queue_index` (`queue`);
 
 --
 -- Indexes for table `job_batches`
@@ -766,6 +606,15 @@ ALTER TABLE `password_reset_tokens`
   ADD PRIMARY KEY (`email`);
 
 --
+-- Indexes for table `personal_access_tokens`
+--
+ALTER TABLE `personal_access_tokens`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `personal_access_tokens_token_unique` (`token`),
+  ADD KEY `personal_access_tokens_tokenable_type_tokenable_id_index` (`tokenable_type`,`tokenable_id`),
+  ADD KEY `personal_access_tokens_expires_at_index` (`expires_at`);
+
+--
 -- Indexes for table `sessions`
 --
 ALTER TABLE `sessions`
@@ -774,52 +623,46 @@ ALTER TABLE `sessions`
   ADD KEY `sessions_last_activity_index` (`last_activity`);
 
 --
--- Indexes for table `tbl_award_certificate`
+-- Indexes for table `tbl_appln_form`
 --
-ALTER TABLE `tbl_award_certificate`
+ALTER TABLE `tbl_appln_form`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `tbl_candidate_profile`
+-- Indexes for table `tbl_course`
 --
-ALTER TABLE `tbl_candidate_profile`
+ALTER TABLE `tbl_course`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `year_of_study` (`year_of_study`,`course_code`);
+
+--
+-- Indexes for table `tbl_course_subject`
+--
+ALTER TABLE `tbl_course_subject`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `course_id` (`course_id`,`subject_id`);
+
+--
+-- Indexes for table `tbl_exam`
+--
+ALTER TABLE `tbl_exam`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `course_id` (`course_id`,`session_id`,`exam_type`) USING BTREE;
+
+--
+-- Indexes for table `tbl_exam_type`
+--
+ALTER TABLE `tbl_exam_type`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `tbl_candidate_profile_status`
+-- Indexes for table `tbl_payments`
 --
-ALTER TABLE `tbl_candidate_profile_status`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `tbl_employer_profile`
---
-ALTER TABLE `tbl_employer_profile`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `tbl_employer_type`
---
-ALTER TABLE `tbl_employer_type`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `tbl_job`
---
-ALTER TABLE `tbl_job`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `tbl_jobtype`
---
-ALTER TABLE `tbl_jobtype`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `tbl_job_experience`
---
-ALTER TABLE `tbl_job_experience`
-  ADD PRIMARY KEY (`id`);
+ALTER TABLE `tbl_payments`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `idx_order_id` (`order_id`),
+  ADD KEY `idx_payment_id` (`payment_id`,`appln_id`) USING BTREE,
+  ADD KEY `idx_exam_user` (`appln_id`) USING BTREE;
 
 --
 -- Indexes for table `tbl_role`
@@ -828,33 +671,28 @@ ALTER TABLE `tbl_role`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `tbl_social_links`
+-- Indexes for table `tbl_session`
 --
-ALTER TABLE `tbl_social_links`
+ALTER TABLE `tbl_session`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `tbl_user_enclosures`
+-- Indexes for table `tbl_student_exam_allowed`
 --
-ALTER TABLE `tbl_user_enclosures`
+ALTER TABLE `tbl_student_exam_allowed`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `tbl_user_languages`
+-- Indexes for table `tbl_subject`
 --
-ALTER TABLE `tbl_user_languages`
-  ADD PRIMARY KEY (`id`);
+ALTER TABLE `tbl_subject`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `name` (`name`);
 
 --
--- Indexes for table `tbl_user_qualification`
+-- Indexes for table `tbl_user_profile`
 --
-ALTER TABLE `tbl_user_qualification`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `tbl_user_skills`
---
-ALTER TABLE `tbl_user_skills`
+ALTER TABLE `tbl_user_profile`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -876,70 +714,58 @@ ALTER TABLE `failed_jobs`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `jobs`
---
-ALTER TABLE `jobs`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `m_menu`
 --
 ALTER TABLE `m_menu`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
--- AUTO_INCREMENT for table `tbl_award_certificate`
+-- AUTO_INCREMENT for table `personal_access_tokens`
 --
-ALTER TABLE `tbl_award_certificate`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+ALTER TABLE `personal_access_tokens`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `tbl_candidate_profile`
+-- AUTO_INCREMENT for table `tbl_appln_form`
 --
-ALTER TABLE `tbl_candidate_profile`
+ALTER TABLE `tbl_appln_form`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT for table `tbl_candidate_profile_status`
+-- AUTO_INCREMENT for table `tbl_course`
 --
-ALTER TABLE `tbl_candidate_profile_status`
+ALTER TABLE `tbl_course`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT for table `tbl_employer_profile`
+-- AUTO_INCREMENT for table `tbl_course_subject`
 --
-ALTER TABLE `tbl_employer_profile`
+ALTER TABLE `tbl_course_subject`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+
+--
+-- AUTO_INCREMENT for table `tbl_exam`
+--
+ALTER TABLE `tbl_exam`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `tbl_exam_type`
+--
+ALTER TABLE `tbl_exam_type`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- AUTO_INCREMENT for table `tbl_employer_type`
+-- AUTO_INCREMENT for table `tbl_payments`
 --
-ALTER TABLE `tbl_employer_type`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-
---
--- AUTO_INCREMENT for table `tbl_job`
---
-ALTER TABLE `tbl_job`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
--- AUTO_INCREMENT for table `tbl_jobtype`
---
-ALTER TABLE `tbl_jobtype`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
-
---
--- AUTO_INCREMENT for table `tbl_job_experience`
---
-ALTER TABLE `tbl_job_experience`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+ALTER TABLE `tbl_payments`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `tbl_role`
@@ -948,40 +774,34 @@ ALTER TABLE `tbl_role`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- AUTO_INCREMENT for table `tbl_social_links`
+-- AUTO_INCREMENT for table `tbl_session`
 --
-ALTER TABLE `tbl_social_links`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+ALTER TABLE `tbl_session`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- AUTO_INCREMENT for table `tbl_user_enclosures`
+-- AUTO_INCREMENT for table `tbl_student_exam_allowed`
 --
-ALTER TABLE `tbl_user_enclosures`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+ALTER TABLE `tbl_student_exam_allowed`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
--- AUTO_INCREMENT for table `tbl_user_languages`
+-- AUTO_INCREMENT for table `tbl_subject`
 --
-ALTER TABLE `tbl_user_languages`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+ALTER TABLE `tbl_subject`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
--- AUTO_INCREMENT for table `tbl_user_qualification`
+-- AUTO_INCREMENT for table `tbl_user_profile`
 --
-ALTER TABLE `tbl_user_qualification`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
-
---
--- AUTO_INCREMENT for table `tbl_user_skills`
---
-ALTER TABLE `tbl_user_skills`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+ALTER TABLE `tbl_user_profile`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
